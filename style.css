@@ -1,0 +1,31 @@
+/***
+browser reset code
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 500px;
+    width: 900px;
+    color: black;
+    display: flex;
+    margin: 50px auto;
+    text-align: center;
+    justify-content: space-around;
+    gap: 15px;
+    align-items: center;
+}
+.projects{
+    background-color: rgb(110, 88, 255);
+    height: 150px;
+}
+.clients{
+    background-color: rgb(253, 137, 90);
+    height: 150px;
+}
+.achieved{
+    background-color: hsl(39, 100%, 50%);   
+    height: 150px;
+}
